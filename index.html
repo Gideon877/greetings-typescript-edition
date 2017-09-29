@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Type Script</title>
+    <link rel="stylesheet" href="css/greet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" align="center" style="background-color: #9cd8bf;">
+            <h3 id="greeting" align="center">Greetings</h3>
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" name="name" value="" id="fname" placeholder="Enter name here" required>
+        <button type="submit" onclick="main()">Greet</button>
+        <hr>
+
+        <input type="radio" name="language" id="english" value="english" required>
+        <label for="english">English</label>
+
+        <input type="radio" name="language" id="setswana" value="setswana" required>
+        <label for="setswana">Setswana</label>
+
+        <input type="radio" name="language" id="zulu" value="zulu" required>
+        <label for="zulu">Zulu</label>
+        <br>
+        <hr>
+        <div class="message"></div>
+
+    </div>
+    </div>
+    <script src="main.js" charset="utf-8"></script>
+</body>
+<footer id='footer' align="center">
+    <p>Posted by:<a href="https://twitter.com/gideon877"> <i>TG Magaola</i></a> ® <br></p>
+</footer>
+
+</html>
